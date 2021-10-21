@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - RedStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px" alt="">
+            </div>
+            <nav>
+                <ul id="menu_items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" alt="">
+            <img src="images/menu.png" class="menu_icon" onclick="menuToggle()" alt="">
+        </div>
+    </div>
+
+    <!-- ================================
+               Cart Item Details
+    ================================ -->
+
+    <div class="small_container cart_page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small>Price : $25.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$25.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Shoes</p>
+                            <small>Price : $40.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$40.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart_info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Trouser</p>
+                            <small>Price : $80.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$80.00</td>
+            </tr>
+        </table>
+
+        <div class="total_price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$145.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$25.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$170.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- ================================
+           Footer
+================================ -->
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_column_1">
+                        <h3>
+                            Download our App
+                        </h3>
+                        <p>
+                            Download App for Android and ios mobile phone
+                        </p>
+                        <div class="applogo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_column_2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>
+                            Our purpose is to sustainably make the pleasure and benefits of sports accessible to
+                            many
+                        </p>
+                    </div>
+                    <div class="footer_column_3">
+                        <h3>
+                            Useful Links
+                        </h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affilliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column_4">
+                        <h3>
+                            Follow Us
+                        </h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&#169 Copyright 2021 - Ecommerce Tutorials</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>

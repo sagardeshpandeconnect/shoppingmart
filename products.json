@@ -1,0 +1,74 @@
+ [
+    {
+        "id": "1",
+        "image": "./images/product-1.jpg",
+        "title": "Red Printed T-Shirt",
+        "price": "20"
+    },
+    {
+        "id": "2",
+        "image": "./images/product-2.jpg",
+        "title": "Black Sneakers",
+        "price": "15"
+    },
+    {
+        "id": "3",
+        "image": "./images/product-3.jpg",
+        "title": "Grey Track Trouser",
+        "price": "18"
+    },
+    {
+        "id": "4",
+        "image": "./images/product-4.jpg",
+        "title": "Blue Printed T-Shirt",
+        "price": "20"
+    },
+    {
+        "id": "5",
+        "image": "./images/product-5.jpg",
+        "title": "White Gray Sneakers",
+        "price": "12"
+    },
+    {
+        "id": "6",
+        "image": "./images/product-6.jpg",
+        "title": "Black Printed T-Shirt",
+        "price": "15"
+    },
+    {
+        "id": "7",
+        "image": "./images/product-7.jpg",
+        "title": "Socks",
+        "price": "5"
+    },
+    {
+        "id": "8",
+        "image": "./images/product-8.jpg",
+        "title": "Steel Belt Watch",
+        "price": "11"
+    },
+    {
+        "id": "9",
+        "image": "./images/product-9.jpg",
+        "title": "Rubber Belt Watch",
+        "price": "9"
+    },
+    {
+        "id": "10",
+        "image": "./images/product-10.jpg",
+        "title": "Black Red Sneakers",
+        "price": "12"
+    },
+    {
+        "id": "11",
+        "image": "./images/product-11.jpg",
+        "title": "White Gray Sneakers",
+        "price": "12"
+    },
+    {
+        "id": "12",
+        "image": "./images/product-12.jpg",
+        "title": "Nike Track Pant",
+        "price": "15"
+    }
+]
